@@ -75,6 +75,8 @@ class RequiredIfCategoryAttribute: RequiredAttribute
 }
 ```
 
+https://stackoverflow.com/a/16100455/2715716
+
 This takes care of the backend, but on the frontend, the form element would still have
 a required HTML attribute on itself, because this attribute still derives from `Required`
 so that the ASP .NET Core validations framework would most likely still print that HTML
