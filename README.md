@@ -104,6 +104,8 @@ Instead of using a custom attribute, then, a custom Fluent Validations chain cou
 derived from the DSL instead and same on the client for the various client side
 validation libraries.
 
+https://fluentvalidation.net/start
+
 ## To-Do
 
 ### Figure out how to distinguish form components marked by ASP .NET and custom attribute
