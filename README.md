@@ -108,6 +108,8 @@ https://fluentvalidation.net/start
 
 https://github.com/JeremySkinner/FluentValidation#example
 
+https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation
+
 ## To-Do
 
 ### Figure out how to distinguish form components marked by ASP .NET and custom attribute
