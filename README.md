@@ -55,6 +55,26 @@ attribute with custom `IsValid` logic which would use the validation context fro
 2nd argument to access the `Category` field on the model and either apply self or not
 based on the field value.
 
+```cs
+class RequiredIfCategoryAttribute: RequiredAttribute
+{
+  public RequiredIfCategoryAttribute(string category)
+  {
+  
+  }
+  
+  IsValid(object model, ValidationContext validationContext)
+  {
+    if (model.Category == _category) {
+      // Required
+    }
+    else {
+      // Not required
+    }
+  }
+}
+```
+
 This takes care of the backend, but on the frontend, the form element would still have
 a required HTML attribute on itself, because this attribute still derives from `Required`
 so that the ASP .NET Core validations framework would most likely still print that HTML
