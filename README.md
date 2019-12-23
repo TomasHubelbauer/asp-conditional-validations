@@ -114,9 +114,18 @@ https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation
 
 ## To-Do
 
+### Scaffold an ASP .NET MVC with Identity application
+
+### Set up a form sending an example model to the application
+
+### Make the model so that depending on a field another is either required or not
+
+### Set up the required attribute on the server to use the validation context
+
+Apply itself or not depending on the model values.
+
+### Generate the client side validations based on the generalized declarative model
+
 ### Figure out how to distinguish form components marked by ASP .NET and custom attribute
 
 See above.
-
-
-
