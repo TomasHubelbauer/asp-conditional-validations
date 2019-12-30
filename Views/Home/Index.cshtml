@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model DemoModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form asp-controller="Home" asp-action="Demonstrate" method="post">
+        First Name:
+        <input asp-for="FirstName" />
+        <br />
+        Last Name:
+        <input asp-for="LastName" />
+        <br />
+        <input asp-for="IsEmployed" />
+        employed?
+        <br />
+        Job Title:
+        <input asp-for="JobTitle" />
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+</div>

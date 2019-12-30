@@ -112,17 +112,21 @@ https://github.com/JeremySkinner/FluentValidation#example
 
 https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation
 
+## Running
+
+`dotnet run` or `dotnet watch run`
+
 ## To-Do
 
-### Scaffold an ASP .NET MVC with Identity application
+### Make `JobTitle` on `DemoModel` required if `IsEmployed` is true
 
-### Set up a form sending an example model to the application
+### Get client side validations to run with the out of the box functionality
 
-### Make the model so that depending on a field another is either required or not
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms
 
 ### Set up the required attribute on the server to use the validation context
 
-Apply itself or not depending on the model values.
+Apply itself or not depending on `IsEmployed`.
 
 ### Generate the client side validations based on the generalized declarative model
 
