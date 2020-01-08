@@ -1,5 +1,7 @@
 # ASP .NET Core Conditional Validations
 
+[**WEB**](https://tomashubelbauer.github.io/asp-conditional-validations)
+
 Have custom `Required` attribute, which uses the validation context to decide
 whether to apply itself or not - this is the server side validation.
 
